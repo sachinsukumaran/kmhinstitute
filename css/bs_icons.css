@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("/fonts/bootstrap-icons.woff2") format("woff2"),
+    url("/fonts/bootstrap-icons.woff") format("woff");
+  font-display: swap;
+}
+
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-envelope-fill::before {
+  content: "\f32c";
+}
+.bi-envelope-open-fill::before {
+  content: "\f32d";
+}
+.bi-envelope-open::before {
+  content: "\f32e";
+}
+.bi-envelope::before {
+  content: "\f32f";
+}
+
+.bi-facebook::before {
+  content: "\f344";
+}
+.bi-instagram::before {
+  content: "\f437";
+}
+.bi-linkedin::before {
+  content: "\f472";
+}
+
+.bi-search::before {
+  content: "\f52a";
+}
+
+.bi-telephone-fill::before {
+  content: "\f5b4";
+}
+.bi-telephone-forward-fill::before {
+  content: "\f5b5";
+}
+.bi-telephone-forward::before {
+  content: "\f5b6";
+}
+.bi-telephone-inbound-fill::before {
+  content: "\f5b7";
+}
+.bi-telephone-inbound::before {
+  content: "\f5b8";
+}
+.bi-telephone-minus-fill::before {
+  content: "\f5b9";
+}
+.bi-telephone-minus::before {
+  content: "\f5ba";
+}
+.bi-telephone-outbound-fill::before {
+  content: "\f5bb";
+}
+.bi-telephone-outbound::before {
+  content: "\f5bc";
+}
+.bi-telephone-plus-fill::before {
+  content: "\f5bd";
+}
+.bi-telephone-plus::before {
+  content: "\f5be";
+}
+.bi-telephone-x-fill::before {
+  content: "\f5bf";
+}
+.bi-telephone-x::before {
+  content: "\f5c0";
+}
+.bi-telephone::before {
+  content: "\f5c1";
+}
+.bi-twitter::before {
+  content: "\f5ef";
+}
+
+.bi-whatsapp::before {
+  content: "\f618";
+}
