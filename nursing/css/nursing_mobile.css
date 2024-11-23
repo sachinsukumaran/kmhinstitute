@@ -1,0 +1,221 @@
+@media (max-width: 1300px) {
+	.head_bar_con .head_bar_center{
+		width:100%;
+	}
+	
+	.menu_con .menu_center{
+		width:100%;
+	}
+	
+	.about_con .about_center{
+		width:100%;
+	}
+
+	.aim_con .aim_center{
+		width:95%;
+	}
+
+	.course_con .course_center{
+		width:95%;
+	}
+	
+	.career_con .career_center{
+		width:95%;
+	}
+	
+	.crit_con .crit_center{
+		width:95%;
+	}
+	
+	.footer_con .footer_center{
+		width:95%;
+	}
+	
+	.copy_con .copy_center{
+		width:95%;
+	}
+	
+	.contact_con .contact_center {
+        width: 95%;
+    }
+}
+
+@media (max-width: 851px) {
+	
+	.aim_con .aim_center .aim_c .aim_cont .aim_right .head_txt .txt{
+		line-height: 52px;
+	}
+	
+	
+	.footer .address {
+		width: 100%;
+	}
+	
+	.footer .quick_link {
+		width: 100% !important;
+	}
+	
+	.footer .quick_link .footer_list ul li a {
+		color: white;
+		display: block;
+		transition: all 0.5s linear;
+		width: 100%;
+	}
+	
+	.copy_rights .copy {
+		width: 100%;
+	}
+	
+	.copy_rights .social_head_con {
+		width: 100%;
+	}
+	
+	.copy_rights .copy p{
+		text-align:center;
+		line-height: 30px;
+	}
+	
+	.copy_rights .social_head_con .social_head > ul {
+		float:none;
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+	}
+	
+	.contact .cont_box ul li {
+            width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 769px) {
+	.head_bar .bar_left {
+		width: 100%;
+	}
+	
+	.head_bar .bar_left ul {
+		display:flex;
+		justify-content: center;
+	}
+	
+	.head_bar .bar_right {
+		width: 100%;
+	}
+	
+	.head_bar .bar_right .social_head_con .social_head > ul {
+		display: flex;
+		justify-content: center;
+		float:none;
+	}
+	
+	.section_first_con{
+		margin-top: 166px;
+	}
+	
+	.about_con .about_center .about_us .image_para img{
+		width:95%;
+	}
+	
+	.aim_con .aim_center .aim_c .aim_cont .aim_left{
+		width: 99%;
+	}
+	
+	.aim_con .aim_center .aim_c .aim_cont .aim_right {
+		width: 99%;
+	}
+	
+	.course .cou_left {
+		width: 100%;
+	}
+	
+	.course .cou_right {
+		width: 100%;
+	}
+	
+	.career .gallery ul li {
+		width: 49%;
+	}
+	
+	.career .career_left {
+		width: 100%;
+	}
+	
+	.career .career_right {
+		width: 100%;
+	}
+	
+	.crit .a_con > ul > li {
+		width: 99%;
+	}
+	
+	.career .para_sub p{
+		line-height:30px;
+	}
+	.contact .cont_wrapper .cont_img {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    .contact .cont_wrapper .cont_img img {
+       
+        border-radius: 50px;
+    }
+    
+    .contact .cont_wrapper .cont_form {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px;
+        background: #f9f9f9;
+        border-radius:50px;
+    }
+    
+    .section_first_con{
+        margin-top:147px
+    }
+}
+
+@media (max-width: 600px) {
+	.aim_c .aim_cont .aim_left .img_l {
+		width: 100%;
+	}
+	
+	.aim_c .aim_cont .aim_left .img_r {
+		width: 100%;
+	}
+	
+	.aim_c .aim_cont .aim_left .img_r .image_bot img{
+		height:auto;
+		width:100%;
+	}
+	
+	.aim_con .aim_center .aim_c .aim_cont .aim_right .a_con ul li {
+		width: 100%;
+	}
+	
+	.course .cou_left .obj_head_con .ob_list ul li .li_obj {
+		width: 90%;
+	}
+
+	.course .cou_left .obj_head_con .ob_list ul li .images {
+		width: 10%;
+	}
+	
+	.career .gallery ul li {
+        width: 100%;
+    }
+	
+	.career .career_left .obj_head_con .ob_list ul li .images {
+		width: 10%;
+	}
+	
+	.career .career_left .obj_head_con .ob_list ul li .li_obj {
+		width: 90%;
+	}
+	
+	.footer_con .footer_center .footer{
+		padding: 50px 20px 10px 20px;
+	}
+}
