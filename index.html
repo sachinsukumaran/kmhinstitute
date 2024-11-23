@@ -899,6 +899,35 @@
     
     
     <link rel="stylesheet" href="./css/style.min.css" media="screen">
+
+
+<!-- Modal Popup -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true" data-bs-backdrop="false">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content p-0 rounded-3" style="background: none; border: none;"> <!-- No border or background -->
+        <div class="modal-body text-center position-relative">
+          <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal" aria-label="Close" 
+            style="top: 20px; right: 30px; background-color: transparent; border: none; z-index: 10;"></button>
+          <a href="nursing/nursing.html" target="_blank">
+            <img src="images/banner_w.webp" class="img-fluid" alt="B.Sc. Nursing" style="border-radius: 20px;"> <!-- 50% shorter -->
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    // Auto-show modal after 3 seconds on page load
+    window.onload = function() {
+      setTimeout(function() {
+        var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+        myModal.show(); // Show the modal
+      }, 3000); // 3000 milliseconds = 3 seconds
+    };
+    </script>
+
+
 </footer></body>
 
 </html>
